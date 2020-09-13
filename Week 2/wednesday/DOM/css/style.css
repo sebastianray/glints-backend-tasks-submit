@@ -1,0 +1,16 @@
+body{
+    background-size:cover;
+    background-attachment: fixed;
+    background-image: url("https://www.007.com/wp-content/uploads/2014/01/Daniel-Craig-james-bond-BW.jpg");
+}
+h1{
+    font-family: "Lucida Console", Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+label{
+    font-family: "Lucida Console", Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+div{
+    font-family: "Lucida Console", Courier, monospace;
+}

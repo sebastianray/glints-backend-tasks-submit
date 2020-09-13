@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. James Income-Expense Post</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mr. James Income-Expense Post</h1>
+        <form onsubmit="return submitHandler()">
+            <label for="post-title">Title</label>
+            <input type="text" name="title-post" id="title-post"/>
+            <select name="type-post" id="type-post">
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <label for="total-post">Total</label>
+            <input type="text" name="total-post" id="total-post"/>
+            <input type="submit" value="Submit" id="btn">
+        </form>
+    </div>
+    <hr/>
+    <div id="data-post">
+        <!-- <p>Posted here</p> -->
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
