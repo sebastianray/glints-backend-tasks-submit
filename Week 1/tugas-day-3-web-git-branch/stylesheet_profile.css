@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header h1 {
+      font-family: 'Franklin Gothic Medium';
+      padding: 15px;
+      background-color: maroon;
+      color: wheat;
+      text-align: center;
+  }
+  
+  .container {
+      padding: 20px;
+      margin: 5px 0;
+  }
+  
+  .container h1 {
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container img {
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .container p {
+      line-height: 25px;
+      margin: 50px 0;
+      text-align: justify;
+      font-family: 'Franklin Gothic Medium';
+  }
+  
+  .footer {
+      text-align: center;
+  }
+  
+  .footer h1 {
+      font-family: 'Franklin Gothic Medium';
+      padding: 15px;
+      background-color: maroon;
+      color: wheat;
+  }
+  

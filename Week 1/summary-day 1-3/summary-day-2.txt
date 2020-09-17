@@ -1,0 +1,19 @@
+Summary Day 2-Back End Class
+Sebastian Rainoor Ubai Otoluwa
+
+Hari Ke-2 kami diperkenalkan dengan Github dan Gitlab, oleh trainer kami diajari cara register ke github dan gitlab. Selanjutnya kami membuat repository baru dengan menggunakan git bash, kami juga diajarkan cara memindahkan file dari direktori repository ke master di gitlab dengan berbagai command di git bash.
+Berikut pemahaman yang telah saya dapatkan hari ini :
+1. Git adalah salah satu sistem pengontrol versi pada proyek perangkat lunak. 
+Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri.
+Git dikenal juga dengan distributed revision control (VCS terdistribusi), artinya penyimpanan database Git tidak hanya berada dalam satu tempat saja.
+2. Berikut adalah fungsi-fungsi command dalam git yang telah kami pelajari di hari ke-2 ini :
+- git init, 
+Perintah ini digunakan untuk membuat repositori baru.
+- git remote add origin <link_name>, 
+Perintah git remote akan membuat user terhubung ke remote 
+repository.
+- git add <file_name>, 
+Perintah git add bisa digunakan untuk menambahkan file ke index.
+- git commit -m "<message_name>", Perintah git commit digunakan untuk melakukan commit pada perubahan ke head.
+- git push origin master, mengirimkan perubahan ke master branch dari remote repository yang berhubungan dengan direktori kerja.
+ 

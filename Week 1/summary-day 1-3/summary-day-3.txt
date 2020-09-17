@@ -1,0 +1,15 @@
+Summary Day 3-Back End Class
+Sebastian Rainoor Ubai Otoluwa
+
+Hari Ke-3 kami mempelajari cara branching dan merging di gitlab, 
+dengan bimbingan trainer kami mempraktekan cara menambahkan branch, cara push file dari branch, serta menggabungkan (merging) perubahan dari branch dan master. 
+Setelah itu kami mulai dikenalkan pada html dan css dimana dijelaskan perbedaan antara html dan css, 
+html dan css jika dianalogikan dengan membangun rumah, html adalah pondasi rumah, sementara css adalah warna/tampilan rumah. 
+Kami juga diperlihatkan bagaimana cara kerja antara html dan css.
+Berikut adalah fungsi-fungsi command dalam git yang telah kami pelajari di hari ke-3 ini :
+- git checkout -b <branch_name>, 
+Perintah ini digunakan untuk membuat branch baru sekaligus berpindah dari master ke branch tersebut.
+- git pull origin <branch_name>, 
+Perintah ini berfungsi untuk menarik branch remote, lalu menggabungkannya dengan local branch yang sedang dijalankan. 
+
+ 

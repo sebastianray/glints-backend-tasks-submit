@@ -1,0 +1,7 @@
+SUMMARY DAY 1 - Kelas Back End
+Sebastian Rainoor Ubai Otoluwa
+
+1. Hari ini saya belajar tentang apa itu Back-End, penjelasan alur kerja antara Front-End dan Back-End, memahami tentang Application Programming Interface (API), Terminal, cara install node.js, vscode, github.
+
+2. Dari sesi kali ini saya dapat memahami tentang perbedaan Back-End dan Front-End, serta alur kerjanya; cara instalasi dan menggunakan command prompt(Terminal), dan vscode; serta mendapatkan gambaran awal tentang Javascript dan HTML;
+  
