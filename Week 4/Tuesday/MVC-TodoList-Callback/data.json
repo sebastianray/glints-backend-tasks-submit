@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "task": "Belajar Node.js",
+    "status": false,
+    "tag": "[ ]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": null
+  },
+  {
+    "id": 2,
+    "task": "Download Stream",
+    "status": true,
+    "tag": "[X]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": "2020-09-16T06:16:55.935Z"
+  },
+  {
+    "id": 3,
+    "task": "Latihan Coding",
+    "status": true,
+    "tag": "[X]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": "2020-09-16T05:52:59.045Z"
+  },
+  {
+    "id": 4,
+    "task": "Belajar SQL",
+    "status": true,
+    "tag": "[X]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": "2020-09-16T23:42:34.211Z"
+  },
+  {
+    "id": 5,
+    "task": "Main FM",
+    "status": false,
+    "tag": "[ ]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": null
+  },
+  {
+    "id": 6,
+    "task": "Belajar Javascript",
+    "status": false,
+    "tag": "[ ]",
+    "createdAt": "2020-09-16T23:52:58.776Z",
+    "completedAt": null
+  }
+]
