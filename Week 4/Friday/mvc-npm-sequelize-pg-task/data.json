@@ -1,0 +1,26 @@
+[
+    {
+      "task": "Belajar Node.js",
+      "status": true
+    },
+    {
+      "task": "Download Stream",
+      "status": true
+    },
+    {
+      "task": "Stream Twice",
+      "status": true
+    },
+    {
+      "task": "Belajar SQL",
+      "status": false
+    },
+    {
+      "task": "Main FM",
+      "status": false
+    },
+    {
+      "task": "Belajar Javascript",
+      "status": false
+    }
+  ]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add To Do List</title>
+    <style>
+        body {
+            font-family: "Avenir", sans-serif;
+        }
+        table{
+            width: 500px;
+        }
+        th,td {
+            padding : 10px;
+        }
+        thead {
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <p>This is my personal to do list!</p>
+    
+    <a href="/">Home</a>
+    <a href="/tasks">Tasks</a>
+    <a href="/tasks/add">Add Tasks</a>
+    
+    <h2>Ini add Tasks page</h2>
+    <form action="/tasks/add" method="post">
+        <input type="text" name="task" id="task" placeholder="Task">
+        <!-- <input type="text" name="status" id="status" placeholder="Status"> -->
+        <select name="status" id="status">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College List</title>
+    <style>
+        body {
+            font-family: "Avenir", sans-serif;
+        }
+        table{
+            width: 500px;
+        }
+        th,td {
+            padding : 10px;
+        }
+        thead {
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <p>This is my personal tasks list</p>
+    
+    <a href="/">Home</a>
+    <a href="/tasks">Tasks</a>
+    <a href="/tasks/add">Add Tasks</a>
+    
+    <h2>Ini tasks page</h2>
+    <!-- <%= tasks %> -->
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Task</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% tasks.forEach(tasks => { %>
+                <tr>
+                    <td><%= tasks.id %></td>
+                    <td><%= tasks.task %></td>
+                    <td><%= tasks.status %></td>
+                    <td><a href="tasks/delete/ <%= tasks.id %>">Delete</a></td>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+</body>
+</html>
